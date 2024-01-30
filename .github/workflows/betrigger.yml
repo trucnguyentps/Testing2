@@ -8,3 +8,5 @@ jobs:
       - run: echo "Triggering Wokflow 2"
       - name: Checkout
         uses: actions/checkout@v2
+        with: 
+          repository: 'https://github.com/trucnguyentps/Testing'
