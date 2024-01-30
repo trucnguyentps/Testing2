@@ -2,7 +2,7 @@ name: workflow_02
 on: 
   workflow_dispatch:
 jobs:
-  cypress-run:
+  Testing:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Triggering Wokflow 2"
@@ -12,3 +12,5 @@ jobs:
           repository: 'trucnguyentps/Testing'
           token: ${{ secrets.GH_PAT }}
           ref: main
+      - run: ls -la
+
