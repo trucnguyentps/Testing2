@@ -9,4 +9,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with: 
-          repository: 'https://github.com/trucnguyentps/Testing'
+          repository: 'trucnguyentps/Testing'
